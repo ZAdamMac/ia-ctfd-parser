@@ -12,3 +12,5 @@ Requires:
 
 ## Usage
 Select "illuminarc" flag type from the necessary menus when setting up new flags in challenges and add just the content of a base32-encoded shared secret for the TOTP flag.
+
+The resulting flag will validate if: the correct secret is used to generate a TOTP password for the current 24 hour period, and the flag is expressed in the format category_challenge_<FLAG_TOKEN>. The first two parts of the flag are actually outright ignored currently but are required for appropriate string parsing.
