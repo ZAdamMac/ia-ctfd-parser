@@ -9,3 +9,6 @@ Requires:
 1. Clone this repo to `CTFd/plugins`. The folder `must` be named "illuminarc" so that CTFd can serve the files in the assets dir.
 2. Seed the appropriate values into your target images.
 3. Create the necessary challenges within CTFd.
+
+## Usage
+Select "illuminarc" flag type from the necessary menus when setting up new flags in challenges and add just the content of a base32-encoded shared secret for the TOTP flag.
